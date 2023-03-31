@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    /* background-color: hsl(0, 0%, 90%);
+    border: 1px solid hsl(0, 0%, 70%); */
+
+    background-color: hsl(182, 100%, 90%);
+    border: 1px solid hsl(182, 100%, 60%);
+    outline: none;
+}
