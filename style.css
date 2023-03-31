@@ -1,5 +1,6 @@
+/* https://courses.webdevsimplified.com/view/courses/learn-css-today/217599-fundamentals/633615-14-button-component-library-project */
 * {
-    margin: 5px;
+    margin: 1px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -36,7 +37,37 @@
     color: white;
     border:  hsl(200, 100%, 20%);
 }
-.btn.btn.btn-accent:hover, .btn.btn.btn-accent:focus {
+.btn.btn-accent:hover, .btn.btn-accent:focus {
     background-color:  hsl(200, 100%, 30%);
     box-shadow: 0 0 5px 0  hsl(200, 100%, 20%);
+}
+.btn.btn-danger {
+    background-color: hsl(0, 160%, 50%);    
+    color: white;
+    border:  hsl(0, 160%, 30%);
+}
+.btn-danger:hover, .btn.btn.btn-danger:focus {
+    background-color: hsl(0, 160%, 40%);
+    box-shadow: 0 0 5px 0 hsl(0, 160%, 30%);
+}
+.btn-large {
+    font-size: 1.25rem;
+}
+
+.btn-small {
+    font-size: .5rem;
+}
+
+.btn-pill {
+    border-radius: 1000000px;
+}
+.btn-custom {
+    background: linear-gradient(to right, hsl(271, 70%, 50%), hsl(200, 100%, 40%));
+    color: white;
+    border-color: #222;
+}
+.btn.btn-custom:hover, .btn.btn-custom:focus {
+    background: linear-gradient(to right, hsl(271, 70%, 40%), hsl(200, 100%, 30%));
+    box-shadow: 0 0 5px 0 black
+    border-color: black;
 }
