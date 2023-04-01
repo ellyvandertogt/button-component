@@ -29,7 +29,10 @@ body {
 }
 
 .section-two {
-    padding: 50px 25px;
+    height: 30px;
+    padding: 10px 25px;
+    display: flex;
+    text-align: center;
    
 }
 .list {
@@ -37,5 +40,38 @@ body {
     text-decoration: none;
     list-style-type: none;
     gap: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.h1 {
+    padding-left: 25px;
     margin-top: 25px;
+}
+.projects {
+    padding-left: 25px;
+    margin-top: 25px;
+    display: flex;
+    width: 450px;
+    gap: 75px;
+    margin-left: 125px;
+    text-align: center;
+  
+}
+.section4 {
+    margin: 50px 150px ;
+}
+
+footer.elly {
+    display: flex;
+    justify-content: center;
+    color: rgb(75, 10, 75);
+}
+
+.input {
+    width: 250px;
+    height: 40px;
+    
+}
+.contact-details {
+    gap: 25px;
 }
