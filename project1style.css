@@ -1,0 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Alkatra', cursive; 
+    min-height: 100vh;   
+    background-color: rgb(241, 225, 241);
+ 
+}
+.navbar {
+    font-size: 1.5rem;
+    background-color: rgb(235, 201, 235);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-one {
+    padding: 50px 25px;
+}
+.about-me {
+    padding-bottom: 25px;
+}
+
+.section-two {
+    padding: 50px 25px;
+   
+}
+.list {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 30px;
+    margin-top: 25px;
+}
